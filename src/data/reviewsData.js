@@ -5,23 +5,23 @@
 const reviews = [
   {
     id: 1,
-    name: 'Priya Sharma',
+    name: 'Rahul Ram',
     rating: 5,
-    text: 'The butter chicken here is absolutely divine — the best I have ever had outside of Delhi. The ambience is warm and inviting, and the staff made us feel right at home. Will definitely be coming back!',
+    text: 'We have tried combo of momos, chicken burger and shakes. All tasted fine. The ambience is good. Good spot to hangout with your friends and family. The price is affordable!',
     date: 'August 2024',
   },
   {
     id: 2,
-    name: 'Rahul Menon',
+    name: 'Abinaya Padmanaban',
     rating: 5,
-    text: 'Bites of Heaven is our go-to for family dinners. The Hyderabadi biryani is fragrant and perfectly spiced, and the portions are generous. Five stars without hesitation.',
+    text: 'I recently discovered Bites of Heaven, a newly opened shop that is a must-visit! The moment you step in, you will be impressed by the creative ambiance. We tried their Jigirthanda, Chicken Momos, and French Fries - all were delicious! The place is clean, neat, and has a cool vibe. Definitely recommend checking it out!',
     date: 'July 2024',
   },
   {
     id: 3,
-    name: 'Ananya Reddy',
+    name: 'Dharshini Kathirvel',
     rating: 4,
-    text: 'Loved the masala dosa — crispy on the outside, perfectly spiced potato filling inside. The South Indian section is authentic and takes me back to my grandmother\'s kitchen.',
+    text: 'I tried chicken boneless strips with peri peri and Jigarthanda. The chicken was so tastyyy. Yum 🤤 Must try',
     date: 'September 2024',
   },
   {

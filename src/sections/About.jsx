@@ -38,10 +38,8 @@ export default function About() {
               {siteConfig.longDescription}
             </p>
             <p className="text-brand-text-muted text-base leading-relaxed mb-8">
-              Whether you are craving the creamy richness of our signature Butter Chicken, 
-              the aromatic layers of our Hyderabadi Biryani, or the crispy perfection of a 
-              Masala Dosa - every dish at Bites of Heaven is prepared with love, precision, and 
-              an unwavering commitment to quality.
+              Whether you're craving juicy momos, a crispy chicken burger, or a rich, creamy hot chocolate, every dish at Bites of Heaven is prepared with love, care, and an unwavering commitment to quality. 
+              From satisfying bites to indulgent desserts, there's something delicious for every craving.
             </p>
 
             {/* Feature Cards */}
