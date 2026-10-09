@@ -31,9 +31,9 @@ const siteConfig = {
     full: '20, Kamaraj Rd, Arumugam Nagar, Pollachi, Tamilnadu 642002',
     googleMapsQuery: '20+Kamaraj+Rd+Arumugam+Nagar+Pollachi+Tamilnadu+642002',
     googleMapsEmbed:
-      'https://www.google.com/maps?q=12.9716,77.5946&z=15&output=embed',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.3283286392095!2d77.00693907572767!3d10.66815868947348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba837a14176c2db%3A0xb3331f74b7f37651!2sBites%20of%20Heaven!5e0!3m2!1sen!2sin!4v1728282300000!5m2!1sen!2sin',
     googleMapsLink:
-      'https://www.google.com/maps/dir/?api=1&destination=12.9716,77.5946',
+      'https://maps.app.goo.gl/yP1Qxv52Z3t2v8hEA',
   },
 
   // ─── Opening Hours ─────────────────────────────────

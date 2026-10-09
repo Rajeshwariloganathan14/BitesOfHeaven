@@ -19,7 +19,7 @@ export default function Location() {
           <div className="reveal-left rounded-2xl overflow-hidden h-[350px] md:h-[450px] border border-brand-gray-light/20 shadow-xl shadow-black/30">
             <iframe
               src={siteConfig.address.googleMapsEmbed}
-              title="Bites of Heaven Location"
+              title="Spice Haven Location"
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) brightness(0.8) contrast(1.2) saturate(0.3)' }}
