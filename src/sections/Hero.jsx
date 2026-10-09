@@ -30,17 +30,17 @@ export default function Hero() {
         </div>
 
         {/* Restaurant Name */}
-        <h1 className="animate-fade-in-up delay-100 font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-4 leading-[1.1]">
-          Bites of<span className="text-gradient-gold">Heaven</span>
+        <h1 className="animate-fade-in-up delay-100 font-heading text-[clamp(2.5rem,8vw,6rem)] md:text-7xl lg:text-8xl font-bold text-white mb-4 leading-tight sm:leading-[1.1] break-words">
+          Bites of <span className="text-gradient-gold inline-block">Heaven</span>
         </h1>
 
         {/* Tagline */}
-        <p className="animate-fade-in-up delay-200 font-heading text-xl sm:text-2xl md:text-3xl text-brand-cream/90 italic mb-6">
+        <p className="animate-fade-in-up delay-200 font-heading text-lg sm:text-2xl md:text-3xl text-brand-cream/90 italic mb-6 px-2">
           Authentic Flavours, Made With Passion
         </p>
 
         {/* Description */}
-        <p className="animate-fade-in-up delay-300 text-brand-text/80 text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-10">
+        <p className="animate-fade-in-up delay-300 text-brand-text/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-10 px-2">
           Discover a world of rich, aromatic Indian cuisine crafted by our expert chefs 
           using time-honoured recipes and the finest locally-sourced ingredients.
         </p>

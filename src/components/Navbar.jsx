@@ -53,15 +53,16 @@ export default function Navbar() {
   }
 
   return (
-    <nav
-      id="navbar"
-      className={`fixed top-0 left-0 right-0 z-[90] transition-all duration-500 ${
-        scrolled
-          ? 'bg-brand-dark/95 backdrop-blur-md shadow-lg shadow-black/20 py-3'
-          : 'bg-transparent py-5'
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <>
+      <nav
+        id="navbar"
+        className={`fixed top-0 left-0 right-0 z-[90] transition-all duration-500 ${
+          scrolled
+            ? 'bg-brand-dark/95 backdrop-blur-md shadow-lg shadow-black/20 py-3'
+            : 'bg-transparent py-5'
+        }`}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <a
           href="#home"
@@ -69,8 +70,8 @@ export default function Navbar() {
           className="flex items-center gap-2 group"
         >
           <img src="/logo.png" alt="BitesOfHeaven Logo" className="w-8 h-8 sm:w-10 sm:h-10 transition-transform duration-300 group-hover:scale-110" />
-          <span className="text-2xl md:text-3xl font-heading font-bold text-brand-cream group-hover:text-brand-gold transition-colors duration-300">
-            Bites of<span className="text-brand-gold">Heaven</span>
+          <span className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-brand-cream group-hover:text-brand-gold transition-colors duration-300 whitespace-nowrap">
+            Bites of <span className="text-brand-gold">Heaven</span>
           </span>
         </a>
 
@@ -137,12 +138,13 @@ export default function Navbar() {
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
-      </div>
+        </div>
+      </nav>
 
       {/* ─── Mobile Menu Overlay ──────────────────────── */}
       <div
         className={`fixed inset-0 top-0 bg-brand-dark/98 backdrop-blur-lg z-[89] lg:hidden flex flex-col items-center justify-center transition-all duration-500 ${
-          isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+          isOpen ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'
         }`}
       >
         <div className="flex flex-col items-center gap-6">
@@ -183,6 +185,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </nav>
+    </>
   )
 }
