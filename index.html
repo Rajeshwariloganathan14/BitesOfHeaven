@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Bites of Heaven — Authentic Flavours, Made With Passion</title>
+    <meta name="description" content="Experience the finest Indian cuisine at Bites of Heaven. From aromatic biryanis to sizzling tandoori dishes, enjoy authentic flavours crafted with passion and the freshest ingredients." />
+    <meta name="keywords" content="Indian restaurant, biryani, tandoori, curry, fine dining, Bites of Heaven" />
+    <meta name="author" content="Bites of Heaven" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Bites of Heaven — Authentic Flavours, Made With Passion" />
+    <meta property="og:description" content="Experience the finest Indian cuisine at Bites of Heaven. Authentic flavours crafted with passion and the freshest ingredients." />
+    <meta property="og:site_name" content="Bites of Heaven" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bites of Heaven — Authentic Flavours, Made With Passion" />
+    <meta name="twitter:description" content="Experience the finest Indian cuisine at Bites of Heaven. Authentic flavours crafted with passion and the freshest ingredients." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Restaurant Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Bites of Heaven",
+      "description": "Experience the finest Indian cuisine. Authentic flavours crafted with passion and the freshest ingredients.",
+      "servesCuisine": ["Indian", "South Indian", "Chinese"],
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "42, MG Road, Indiranagar",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "560038",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91-98765-43210",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "11:00",
+          "closes": "22:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Friday", "Saturday"],
+          "opens": "11:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "10:00",
+          "closes": "22:30"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
