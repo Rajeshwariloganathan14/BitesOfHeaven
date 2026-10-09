@@ -15,10 +15,10 @@ const siteConfig = {
     'Founded in 2025, Bites of Heaven was born from a passion for bringing the diverse, vibrant flavours of India to your table. Every dish tells a story - from the smoky depths of our tandoor oven to the delicate balance of spices in our signature curries. We believe great food is about more than taste; it is about experience, tradition, and the warmth of sharing a meal with those you love.',
 
   // ─── Contact Information ───────────────────────────
-  phone: '+91 9566344446',
-  phoneHref: 'tel:+919566344446',
+  phone: '+91 9159157006',
+  phoneHref: 'tel:+919159157006',
   email: 'bitsofheaven@gmail.com',
-  whatsapp: '9566344446',
+  whatsapp: '9159157006',
   whatsappMessage: 'Hi! I would like to know more about Bites of Heaven.',
 
   // ─── Address ───────────────────────────────────────
